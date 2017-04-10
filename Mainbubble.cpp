@@ -12,7 +12,7 @@ int main (int argc, char * argv[])
    gettimeofday (&antes, 0) ;
    sleep (2) ;
    vetor v;
-   
+
 
    v.push_back(7);
    v.push_back(3);

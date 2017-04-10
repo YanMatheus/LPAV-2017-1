@@ -1,4 +1,5 @@
-void insertionSort (vector<int>& data, int n) 
+#include "Vetor.cpp"
+void insertionSort (vector<int>& data, int n)
 {
 int i, j, tmp;
 
@@ -13,8 +14,7 @@ int i, j, tmp;
      }
      data[j]=tmp;
  }
-The important part of the code
 
         cout << "insertion sort" << endl;
         system("pause");
-        insertionSort(numberVectors, i);
+        insertionSort(5, i);
