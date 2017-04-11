@@ -41,7 +41,7 @@ void mergeSort(vector<int> aVector, int size, int low, int high){
 }
 int main()
 {
-    const int size = 1000;
+    const int size = 5;
 	vector<int> aVector;
 	srand((unsigned)time(NULL));
 
@@ -49,7 +49,13 @@ int main()
 
 		int b = rand() % 9 + 1;
 
-		aVector.push_back(b);
+
+       aVector.push_back(7);
+       aVector.push_back(3);
+       aVector.push_back(4);
+       aVector.push_back(1);
+       aVector.push_back(10);
+
         cout << aVector[i] << " ";
         mergeSort(aVector, size, 0, 10);
 	}

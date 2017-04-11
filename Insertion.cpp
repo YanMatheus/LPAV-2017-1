@@ -1,5 +1,5 @@
 #include "Vetor.cpp"
-void insertionSort (vector<int> data, int n)
+void insertionSort (vector<int> &data, int n)
 {
 int i, j, tmp;
 
