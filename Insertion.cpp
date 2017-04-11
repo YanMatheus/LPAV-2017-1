@@ -1,5 +1,5 @@
 #include "Vetor.cpp"
-void insertionSort (vector<int>& data, int n)
+void insertionSort (vector<int> data, int n)
 {
 int i, j, tmp;
 
@@ -18,3 +18,4 @@ int i, j, tmp;
         cout << "insertion sort" << endl;
         system("pause");
         insertionSort(5, i);
+      }

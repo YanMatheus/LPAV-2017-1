@@ -41,11 +41,14 @@ void mergeSort(vector<int> aVector, int size, int low, int high){
 }
 int main()
 {
-    const int size = 10;
+    const int size = 1000;
 	vector<int> aVector;
 	srand((unsigned)time(NULL));
+
 	for (int i = 0; i < 10; i++) {
+
 		int b = rand() % 9 + 1;
+
 		aVector.push_back(b);
         cout << aVector[i] << " ";
         mergeSort(aVector, size, 0, 10);

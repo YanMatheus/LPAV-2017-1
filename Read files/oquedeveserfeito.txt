@@ -5,12 +5,12 @@ Repetir os testes 8 vezes para cada instância e tirar média.
 
 Algoritmos de ordenação:
 Nome              Status
-Bubble            Não feito
-Selection         Não feito
-Insertion         Não feito
-Heap              Não feito
-Merge             Não feito
-Quick             Não feito
+Bubble            feito
+Selection         feito
+Insertion         feito
+Heap              feito
+Merge             feito
+Quick             feito
 
 
 Testar de status:
