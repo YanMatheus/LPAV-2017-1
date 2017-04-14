@@ -3,7 +3,7 @@
 #include <time.h>
 #include <unistd.h>
 #include <sys/time.h>
-#define MAX 10 //Mudar para tamanho da instancia desejada
+#define MAX 100000 //Mudar para tamanho da instancia desejada
 
 float comparacoesbubble=0;
 float trocasbubble=0;
@@ -396,8 +396,8 @@ int main(){
 
         printf("\n////////////////////////////////////////\n");
         printf("\n\n\nTempo do insertionSort: %f", tempoMedioinsertion);
-        printf("\nComparacoes do : %f", comparacoesMediainsertion);
-        printf("\nTrocas do : %f", trocasMediainsertion);
+        printf("\nComparacoes do insertionSort: %f", comparacoesMediainsertion);
+        printf("\nTrocas do insertionSort: %f", trocasMediainsertion);
 
         printf("\n////////////////////////////////////////\n");
         printf("\n\n\nTempo do selectionSort: %f", tempoMedioselection);
@@ -418,6 +418,6 @@ int main(){
         printf("\n\n\nTempo do quickSort: %f", tempoMedioquick);
         printf("\nComparacoes do quickSort : %f", comparacoesMediaquick);
         printf("\nTrocas do quickSort : %f", trocasMediaquick);
-
+        system("pause");
         return 0;
 }
